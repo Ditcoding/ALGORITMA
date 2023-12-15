@@ -1,0 +1,50 @@
+kdmk = ['Mk01', 'Mk02', 'Mk03']
+nama_mk = ['Jarkom', 'Algoritma', 'Sistem Operasi']
+sks = [2, 4, 3]
+print('========================Awal======================')
+print('kode         Mata Kuliah         Sks')
+print(kdmk[0], '       ', nama_mk[0], '             ', sks[0])
+print(kdmk[1], '       ', nama_mk[1], '          ', sks[1])
+print(kdmk[2], '       ', nama_mk[2], '     ', sks[2])
+
+print()
+kdmk = ['Mk01', 'Mk02', 'Mk03']
+nama_mk = ['Jarkom', 'Algoritma', 'Sistem Operasi']
+sks = [2, 4, 3]
+print('======================nambah=====================')
+print('kode         Mata Kuliah         Sks')
+print(kdmk[0], '       ', nama_mk[0], '             ', sks[0])
+print(kdmk[1], '       ', nama_mk[1], '          ', sks[1])
+print(kdmk[2], '       ', nama_mk[2], '     ', sks[2])
+kdmk.append(print(kdmk[1], '       ', nama_mk[1], '          ', sks[1]))
+kdmk.append(print(kdmk[2], '       ', nama_mk[2], '     ', sks[2]))
+
+
+print()
+kodmk = ['Mk01', 'Mk02', 'Mk03']
+nama_mkl = ['Jarkom', 'Algoritma', 'Sistem Operasi']
+Sks = [2, 4, 3]
+print('=======================hapus=====================')
+print('kode         Mata Kuliah         Sks')
+print(kodmk[0], '       ', nama_mkl[0], '             ', Sks[0])
+#print(kodmk[1], '       ', nama_mkl[1], '          ', Sks[1])
+#print(kodmk[2], '       ', nama_mkl[2], '     ', Sks[2])
+
+
+print()
+kodmk = ['Mk01', 'Mk02', 'Mk03']
+nama_mkl = ['Jarkom', 'Algoritma', 'Sistem Operasi']
+Sks = [2, 4, 3]
+print('======================Slicing===========================')
+print('kode         Mata Kuliah         Sks')
+print(kodmk[0], '       ', nama_mkl[0], '             ', Sks[0])
+print(kodmk[1], '       ', nama_mkl[1], '          ', Sks[1])
+print(kodmk[2], '       ', nama_mkl[2], '     ', Sks[2])
+print()
+print("FOR I IN RANGE")
+kdmk=["mk01","mk02","mk03"]
+nama_mk=["kalkulus","algoritma","jarkom"]
+sks=[3,4,2]
+print("mk01" in kdmk)
+print("mk04" not in kdmk)
+

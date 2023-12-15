@@ -1,0 +1,43 @@
+kdmk = ['Mk01', 'Mk02', 'Mk03']
+nama_mk = ['Jarkom', 'Algoritma', 'Sistem Operasi']
+sks = [2, 4, 3]
+print(kdmk[0])
+print(nama_mk[0])
+print(sks[0])
+print('========================Awal======================')
+print('kode         Mata Kuliah         Sks')
+print(kdmk[0], '       ', nama_mk[0], '             ', sks[0])
+print(kdmk[1], '       ', nama_mk[1], '          ', sks[1])
+print(kdmk[2], '       ', nama_mk[2], '     ', sks[2])
+
+print()
+kdmk = ['Mk01', 'Mk02', 'Mk03']
+nama_mk = ['Jarkom', 'Algoritma', 'Sistem Operasi']
+sks = [2, 4, 3]
+print(kdmk[0])
+print(nama_mk[0])
+print(sks[0])
+print('======================nambah=====================')
+print('kode         Mata Kuliah         Sks')
+print(kdmk[0], '       ', nama_mk[0], '             ', sks[0])
+print(kdmk[1], '       ', nama_mk[1], '          ', sks[1])
+print(kdmk[2], '       ', nama_mk[2], '     ', sks[2])
+kdmk.extend(nama_mk)
+print(kdmk)
+nama_mk.extend(sks)
+print(nama_mk)
+
+
+print()
+kdmk = ['Mk01', 'Mk02', 'Mk03']
+nama_mk = ['Jarkom', 'Algoritma', 'Sistem Operasi']
+sks = [2, 4, 3]
+print(kdmk[0])
+print(nama_mk[0])
+print(sks[0])
+print('======================hapus=====================')
+print('kode         Mata Kuliah         Sks')
+print(kdmk[0], '       ', nama_mk[0], '             ', sks[0])
+print(kdmk[1], '       ', nama_mk[1], '          ', sks[1])
+print(kdmk[2], '       ', nama_mk[2], '     ', sks[2])
+

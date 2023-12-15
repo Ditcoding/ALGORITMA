@@ -1,0 +1,23 @@
+print("Silahkan lengkapi data anda!!")
+isi = str(input(" Mau isi data [Y = setuju ] = "))
+if isi =="Y":
+    nik = str(input("NIK         :"))
+    nama = str(input("Nama       :"))
+    usia = str(input("Usia       :"))
+    gender = str(input("L/P      :"))
+    Gender = "Laki-laki " if gender == "L" else "Perempuan"
+    alamat= str(input("alamat    :"))
+    hobi= str(input("Hobi        :"))
+    print()
+    print("==================================")
+    print(".:: Cek Data Mahasiswa           ")
+    print("==================================")
+    print("Nik                   :", nik)
+    print("Nama                  :", nama)
+    print("Usia                  :", usia)
+    print("L/P                   :", gender)
+    print("Alamat                :", alamat)
+    print("Hobi                  :", hobi)
+    print("==================================")
+else:
+    print("terimakasih telah mengisi data")
