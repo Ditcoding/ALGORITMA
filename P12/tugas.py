@@ -9,4 +9,13 @@ print('=========================================================================
 print(Mahasiswa1['NPM'],'            ', Mahasiswa1['Nama Mahasiswa'],'                 ', Mahasiswa1['Program Studi'],'                ', Mahasiswa1['Semester'],'            ', Mahasiswa1['IPK'])
 print(Mahasiswa2['NPM'],'            ', Mahasiswa2['Nama Mahasiswa'],'                ', Mahasiswa2['Program Studi'],'             ', Mahasiswa2['Semester'],'            ', Mahasiswa1['IPK'])
 print(Mahasiswa3['NPM'],'            ', Mahasiswa3['Nama Mahasiswa'],'               ', Mahasiswa3['Program Studi'],'             ', Mahasiswa3['Semester'],'            ', Mahasiswa3['IPK'])
+print('=========================================================================================================')
 
+#lanjutan
+print()
+for str1,num,in Mahasiswa1.items():
+    print(str1, ':', num)
+print()
+print(Mahasiswa1.keys())
+print()
+print(Mahasiswa1.values())
