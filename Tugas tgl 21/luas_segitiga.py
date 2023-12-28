@@ -1,0 +1,5 @@
+print("Ini adalah program untuk menghitung Luas segitiga")
+alas = int(input("Tulis alas segitiga:  "))
+tinggi = int(input("Tulis tinggi segitiga:  "))
+luas = 1/2 * (alas * tinggi)
+print("Luas Segitiga Adalah : ", luas)
