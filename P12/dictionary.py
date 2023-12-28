@@ -8,3 +8,15 @@ print(person)
 person['Hobi'] = 'Mancing'
 print(person)
 print(len(person))
+
+#lanjutan
+print()
+print()
+for str1,num,in Mahasiswa1.items():
+    print(str1, ':', num)
+print()
+print()
+print(Mahasiswa1.keys())
+print()
+print()
+print(Mahasiswa1.values())
